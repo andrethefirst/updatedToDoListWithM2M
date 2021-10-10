@@ -34,7 +34,7 @@ namespace ToDoList
       app.UseDeveloperExceptionPage();
       app.UseRouting();
 
-      app.UseEndpoints(routes =>
+       app.UseEndpoints(routes =>
       {
         routes.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
       });
